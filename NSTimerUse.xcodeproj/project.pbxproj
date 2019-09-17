@@ -15,6 +15,19 @@
 		7DC68B082331448F00EDCCAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DC68B062331448F00EDCCAA /* LaunchScreen.storyboard */; };
 		7DC68B0B2331448F00EDCCAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC68B0A2331448F00EDCCAA /* main.m */; };
 		7DC68B152331448F00EDCCAA /* NSTimerUseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC68B142331448F00EDCCAA /* NSTimerUseTests.m */; };
+		7DC68B35233146BE00EDCCAA /* DirectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC68B25233146BD00EDCCAA /* DirectViewController.m */; };
+		7DC68B36233146BE00EDCCAA /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC68B26233146BD00EDCCAA /* BlockViewController.m */; };
+		7DC68B37233146BE00EDCCAA /* ClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC68B2A233146BD00EDCCAA /* ClassViewController.m */; };
+		7DC68B38233146BE00EDCCAA /* Direct1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC68B2D233146BD00EDCCAA /* Direct1ViewController.m */; };
+		7DC68B39233146BE00EDCCAA /* ReasonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC68B30233146BE00EDCCAA /* ReasonViewController.m */; };
+		7DC68B3A233146BE00EDCCAA /* ProxyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC68B32233146BE00EDCCAA /* ProxyViewController.m */; };
+		7DC68B3B233146BE00EDCCAA /* RuntimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC68B33233146BE00EDCCAA /* RuntimeViewController.m */; };
+		7DC68B3C233146BE00EDCCAA /* Direct0ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC68B34233146BE00EDCCAA /* Direct0ViewController.m */; };
+		7DC68B3F2331473F00EDCCAA /* NSTimer+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC68B3D2331473F00EDCCAA /* NSTimer+Safe.m */; };
+		7DC68B422331474700EDCCAA /* NSTimerHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC68B412331474700EDCCAA /* NSTimerHandle.m */; };
+		7DC68B452331474D00EDCCAA /* JKProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC68B432331474D00EDCCAA /* JKProxy.m */; };
+		7DC68B4A2331475500EDCCAA /* UIViewController+Pop.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC68B462331475500EDCCAA /* UIViewController+Pop.m */; };
+		7DC68B4B2331475500EDCCAA /* JKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC68B492331475500EDCCAA /* JKNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +55,32 @@
 		7DC68B102331448F00EDCCAA /* NSTimerUseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSTimerUseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DC68B142331448F00EDCCAA /* NSTimerUseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTimerUseTests.m; sourceTree = "<group>"; };
 		7DC68B162331448F00EDCCAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DC68B25233146BD00EDCCAA /* DirectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectViewController.m; sourceTree = "<group>"; };
+		7DC68B26233146BD00EDCCAA /* BlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
+		7DC68B27233146BD00EDCCAA /* BlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockViewController.h; sourceTree = "<group>"; };
+		7DC68B28233146BD00EDCCAA /* ClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassViewController.h; sourceTree = "<group>"; };
+		7DC68B29233146BD00EDCCAA /* DirectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectViewController.h; sourceTree = "<group>"; };
+		7DC68B2A233146BD00EDCCAA /* ClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassViewController.m; sourceTree = "<group>"; };
+		7DC68B2B233146BD00EDCCAA /* ReasonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReasonViewController.h; sourceTree = "<group>"; };
+		7DC68B2C233146BD00EDCCAA /* RuntimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeViewController.h; sourceTree = "<group>"; };
+		7DC68B2D233146BD00EDCCAA /* Direct1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Direct1ViewController.m; sourceTree = "<group>"; };
+		7DC68B2E233146BD00EDCCAA /* Direct0ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Direct0ViewController.h; sourceTree = "<group>"; };
+		7DC68B2F233146BD00EDCCAA /* ProxyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProxyViewController.h; sourceTree = "<group>"; };
+		7DC68B30233146BE00EDCCAA /* ReasonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReasonViewController.m; sourceTree = "<group>"; };
+		7DC68B31233146BE00EDCCAA /* Direct1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Direct1ViewController.h; sourceTree = "<group>"; };
+		7DC68B32233146BE00EDCCAA /* ProxyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProxyViewController.m; sourceTree = "<group>"; };
+		7DC68B33233146BE00EDCCAA /* RuntimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeViewController.m; sourceTree = "<group>"; };
+		7DC68B34233146BE00EDCCAA /* Direct0ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Direct0ViewController.m; sourceTree = "<group>"; };
+		7DC68B3D2331473F00EDCCAA /* NSTimer+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Safe.m"; sourceTree = "<group>"; };
+		7DC68B3E2331473F00EDCCAA /* NSTimer+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Safe.h"; sourceTree = "<group>"; };
+		7DC68B402331474700EDCCAA /* NSTimerHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimerHandle.h; sourceTree = "<group>"; };
+		7DC68B412331474700EDCCAA /* NSTimerHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTimerHandle.m; sourceTree = "<group>"; };
+		7DC68B432331474D00EDCCAA /* JKProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKProxy.m; sourceTree = "<group>"; };
+		7DC68B442331474D00EDCCAA /* JKProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKProxy.h; sourceTree = "<group>"; };
+		7DC68B462331475500EDCCAA /* UIViewController+Pop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Pop.m"; sourceTree = "<group>"; };
+		7DC68B472331475500EDCCAA /* JKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKNavigationController.h; sourceTree = "<group>"; };
+		7DC68B482331475500EDCCAA /* UIViewController+Pop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Pop.h"; sourceTree = "<group>"; };
+		7DC68B492331475500EDCCAA /* JKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +122,12 @@
 		7DC68AF72331448E00EDCCAA /* NSTimerUse */ = {
 			isa = PBXGroup;
 			children = (
+				7DC68B1F2331449D00EDCCAA /* 方案抽取方法 */,
 				7DC68AF82331448E00EDCCAA /* AppDelegate.h */,
 				7DC68AF92331448E00EDCCAA /* AppDelegate.m */,
 				7DC68AFB2331448E00EDCCAA /* ViewController.h */,
 				7DC68AFC2331448E00EDCCAA /* ViewController.m */,
+				7DC68B242331461D00EDCCAA /* Controllers */,
 				7DC68AFE2331448E00EDCCAA /* Main.storyboard */,
 				7DC68B042331448F00EDCCAA /* Assets.xcassets */,
 				7DC68B062331448F00EDCCAA /* LaunchScreen.storyboard */,
@@ -104,6 +145,78 @@
 				7DC68B162331448F00EDCCAA /* Info.plist */,
 			);
 			path = NSTimerUseTests;
+			sourceTree = "<group>";
+		};
+		7DC68B1F2331449D00EDCCAA /* 方案抽取方法 */ = {
+			isa = PBXGroup;
+			children = (
+				7DC68B23233144E400EDCCAA /* Block方案_有类方法元素在里面 */,
+				7DC68B22233144DD00EDCCAA /* 类方法 */,
+				7DC68B21233144D100EDCCAA /* proxy方法 */,
+				7DC68B20233144C500EDCCAA /* 直接方法 */,
+			);
+			path = "方案抽取方法";
+			sourceTree = "<group>";
+		};
+		7DC68B20233144C500EDCCAA /* 直接方法 */ = {
+			isa = PBXGroup;
+			children = (
+				7DC68B472331475500EDCCAA /* JKNavigationController.h */,
+				7DC68B492331475500EDCCAA /* JKNavigationController.m */,
+				7DC68B482331475500EDCCAA /* UIViewController+Pop.h */,
+				7DC68B462331475500EDCCAA /* UIViewController+Pop.m */,
+			);
+			path = "直接方法";
+			sourceTree = "<group>";
+		};
+		7DC68B21233144D100EDCCAA /* proxy方法 */ = {
+			isa = PBXGroup;
+			children = (
+				7DC68B442331474D00EDCCAA /* JKProxy.h */,
+				7DC68B432331474D00EDCCAA /* JKProxy.m */,
+			);
+			path = "proxy方法";
+			sourceTree = "<group>";
+		};
+		7DC68B22233144DD00EDCCAA /* 类方法 */ = {
+			isa = PBXGroup;
+			children = (
+				7DC68B402331474700EDCCAA /* NSTimerHandle.h */,
+				7DC68B412331474700EDCCAA /* NSTimerHandle.m */,
+			);
+			path = "类方法";
+			sourceTree = "<group>";
+		};
+		7DC68B23233144E400EDCCAA /* Block方案_有类方法元素在里面 */ = {
+			isa = PBXGroup;
+			children = (
+				7DC68B3E2331473F00EDCCAA /* NSTimer+Safe.h */,
+				7DC68B3D2331473F00EDCCAA /* NSTimer+Safe.m */,
+			);
+			path = "Block方案_有类方法元素在里面";
+			sourceTree = "<group>";
+		};
+		7DC68B242331461D00EDCCAA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7DC68B2B233146BD00EDCCAA /* ReasonViewController.h */,
+				7DC68B30233146BE00EDCCAA /* ReasonViewController.m */,
+				7DC68B27233146BD00EDCCAA /* BlockViewController.h */,
+				7DC68B26233146BD00EDCCAA /* BlockViewController.m */,
+				7DC68B28233146BD00EDCCAA /* ClassViewController.h */,
+				7DC68B2A233146BD00EDCCAA /* ClassViewController.m */,
+				7DC68B2E233146BD00EDCCAA /* Direct0ViewController.h */,
+				7DC68B34233146BE00EDCCAA /* Direct0ViewController.m */,
+				7DC68B31233146BE00EDCCAA /* Direct1ViewController.h */,
+				7DC68B2D233146BD00EDCCAA /* Direct1ViewController.m */,
+				7DC68B29233146BD00EDCCAA /* DirectViewController.h */,
+				7DC68B25233146BD00EDCCAA /* DirectViewController.m */,
+				7DC68B2F233146BD00EDCCAA /* ProxyViewController.h */,
+				7DC68B32233146BE00EDCCAA /* ProxyViewController.m */,
+				7DC68B2C233146BD00EDCCAA /* RuntimeViewController.h */,
+				7DC68B33233146BE00EDCCAA /* RuntimeViewController.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,9 +319,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DC68B4B2331475500EDCCAA /* JKNavigationController.m in Sources */,
+				7DC68B36233146BE00EDCCAA /* BlockViewController.m in Sources */,
 				7DC68AFD2331448E00EDCCAA /* ViewController.m in Sources */,
+				7DC68B452331474D00EDCCAA /* JKProxy.m in Sources */,
+				7DC68B422331474700EDCCAA /* NSTimerHandle.m in Sources */,
 				7DC68AFA2331448E00EDCCAA /* AppDelegate.m in Sources */,
+				7DC68B3B233146BE00EDCCAA /* RuntimeViewController.m in Sources */,
+				7DC68B3F2331473F00EDCCAA /* NSTimer+Safe.m in Sources */,
+				7DC68B3A233146BE00EDCCAA /* ProxyViewController.m in Sources */,
+				7DC68B4A2331475500EDCCAA /* UIViewController+Pop.m in Sources */,
 				7DC68B0B2331448F00EDCCAA /* main.m in Sources */,
+				7DC68B37233146BE00EDCCAA /* ClassViewController.m in Sources */,
+				7DC68B38233146BE00EDCCAA /* Direct1ViewController.m in Sources */,
+				7DC68B3C233146BE00EDCCAA /* Direct0ViewController.m in Sources */,
+				7DC68B39233146BE00EDCCAA /* ReasonViewController.m in Sources */,
+				7DC68B35233146BE00EDCCAA /* DirectViewController.m in Sources */,
 				7DC68B032331448E00EDCCAA /* NSTimerUse.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
